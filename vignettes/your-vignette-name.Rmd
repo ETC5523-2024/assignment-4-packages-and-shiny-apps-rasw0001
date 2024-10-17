@@ -24,6 +24,81 @@ launchApp()
 ```
 
 
+```{r}
+devtools::document()
 
 
+```
+
+```{r}
+#' @title Launch the Shiny App
+#'
+#' @description This function launches the Shiny application contained in the package.
+#'
+#' @return No return value, called for side effects.
+#' @export
+launchApp <- function() {
+  shiny::runApp(system.file("app", package = "assignment4shiny"))
+}
+
+```
+
+
+```{r}
+devtools::document()
+
+```
+```{r}
+?launchApp  # This will display the documentation for launchApp()
+?cleaned_data  # This will display the documentation for the cleaned dataset
+
+```
+
+```{r}
+export(launchApp)
+
+```
+```{r}
+#' @title Launch the Shiny App
+#' @description This function launches the Shiny application contained in the package.
+#' @return No return value, called for side effects.
+#' @export
+launchApp <- function() {
+  shiny::runApp(system.file("app", package = "assignment4shiny"))
+}
+
+```
+
+```{r}
+devtools::document()
+export(launchApp)
+?launchApp
+
+```
+```{r}
+
+library(roxygen2)
+
+devtools::document()
+?launchApp
+
+
+#' @title Launch the Shiny App
+#' @description This function launches the Shiny application contained in the package.
+#' @return No return value, called for side effects.
+#' @export
+launchApp <- function() {
+  shiny::runApp(system.file("app", package = "assignment4shiny"))
+}
+
+devtools::document()
+
+?launchApp
+
+```
+```{r}
+devtools::document()
+??launchApp
+
+```
 

@@ -18,6 +18,11 @@ The package provides:
 You can install the `assignment4shiny` package directly from GitHub by running the following command in R:
 
 ```{r}
+remotes::install_github("ETC5523-2024/assignment4shiny")
+```
+
+
+```{r}
 devtools::document()
 devtools::install()
 
