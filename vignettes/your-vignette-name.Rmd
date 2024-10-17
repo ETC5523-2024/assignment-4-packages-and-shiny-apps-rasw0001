@@ -1,21 +1,26 @@
 ---
-title: "your-vignette-name"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{your-vignette-name}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+title: "Using the assignment4shiny package"
+author: "Rishab Aswani"
+output: html_document
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+## Introduction
+
+This vignette provides an overview of how to use the `assignment4shiny` package, which includes a Shiny app and some basic data manipulation functions.
+
+## Installation
+
+To install the package from GitHub:
+
+```{r}
+remotes::install_github("ETC5523-2024/assignment4shiny")
 ```
 
-```{r setup}
+
+```{r}
 library(assignment4shiny)
+launchApp()
+
 ```
 
 
