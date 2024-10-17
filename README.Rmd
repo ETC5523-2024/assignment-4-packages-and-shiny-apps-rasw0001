@@ -2,34 +2,48 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+# assignment4shiny
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+`assignment4shiny` is an R package created as part of an assignment for the ETC5523 unit. This package contains a Shiny app and functions designed to interactively explore and visualize data.
+
+## Overview
+
+The package provides:
+- A Shiny app located in the `inst/app/` folder.
+- Functions to launch the Shiny app and perform data manipulation.
+- Cleaned datasets, if applicable, for analysis.
+
+## Installation
+
+You can install the `assignment4shiny` package directly from GitHub by running the following command in R:
+
+```{r}
+devtools::document()
+devtools::install()
+
 ```
 
-# assignment-4-packages-and-shiny-apps-rasw0001
 
-<!-- badges: start -->
-<!-- badges: end -->
 
-The goal of assignment-4-packages-and-shiny-apps-rasw0001 is to ...
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+```{r}
+library(assignment4shiny)
+launchApp()
 
-```{r cars}
-summary(cars)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
 
-You can also embed plots, for example:
 
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
+
+
+
+
+
+
+
+
+
+
+
+
