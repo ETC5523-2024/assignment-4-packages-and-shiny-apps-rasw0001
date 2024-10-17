@@ -1,10 +1,9 @@
 Package: assignment4shiny
-Title: What the Package Does (One Line, Title Case)
+Title: Shiny Application for Data Visualization and Exploration
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Rishab", "Aswani", email = "rasw0001@student.monash.edu", role = c("aut", "cre"))
+Description: This package provides a Shiny application for interactive data visualization and exploration, allowing users to generate histograms based on random normally distributed data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
