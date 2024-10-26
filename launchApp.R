@@ -5,3 +5,11 @@
 launchApp <- function() {
     shiny::runApp(system.file("app", package = "assignment4shiny"))
 }
+
+#' Launch the Fuel Economy Shiny App
+#'
+#' This function launches a Shiny app for exploring the mpg dataset.
+#' @export
+launchApp <- function() {
+    shiny::runApp(system.file("app", package = "assignment4shiny"))
+}
